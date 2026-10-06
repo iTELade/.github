@@ -1,51 +1,99 @@
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/170614338?v=4" width="110" alt="iTELade">
-</p>
+<div align="center">
 
-<h1 align="center">iTELade</h1>
+<img src="https://avatars.githubusercontent.com/u/170614338?v=4" width="120" alt="iTELade logo">
 
-<p align="center">
-  IT infrastructure, service management and self-hosted tools.
-</p>
+# iTELade
 
-<p align="center">
-  <a href="https://itelade.pl">Website</a> ·
-  <a href="https://status.itelade.pl">Service status</a> ·
-  <a href="mailto:kontakt@itelade.pl">Contact</a>
-</p>
+### Infrastructure · Service Management · Security Operations
+
+Self-hosted tools and infrastructure built for practical day-to-day IT operations.
+
+[Website](https://itelade.pl) · [Service status](https://status.itelade.pl) · [Contact](mailto:kontakt@itelade.pl)
+
+<br>
+
+![Linux](https://img.shields.io/badge/Linux-infrastructure-222?logo=linux&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-containers-222?logo=docker&logoColor=white)
+![Keycloak](https://img.shields.io/badge/Keycloak-identity-222?logo=keycloak&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-networking-222?logo=wireguard&logoColor=white)
+
+</div>
 
 ---
 
-## About
+## What we build
 
-iTELade builds and maintains practical tools and infrastructure for day-to-day IT operations.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-The focus is on self-hosted services, identity and access management, networking, service management, automation and reliable operations.
+### Service Desk
 
-## Projects
+Self-hosted IT service management platform built around real operational workflows.
 
-### [Service Desk](https://github.com/iTELade/service-desk)
+**Core areas**
 
-Self-hosted service management platform for internal IT teams and customer-facing support.
-
-- ticket and request management
-- customer portal
-- LDAP / SSO integration
-- workflows and automation
-- SLA handling
-- asset management
+- incidents and service requests
+- customer and agent portals
+- LDAP / SSO authentication
+- SLA policies and automation
+- assets and configuration items
+- workflows, queues and ticket linking
 - knowledge base integration
 
-### [Service Desk Knowledge Base](https://github.com/iTELade/service-desk-knowledge-base)
+**Repository:** [iTELade/service-desk](https://github.com/iTELade/service-desk)
 
-Knowledge base and documentation project designed to work alongside iTELade Service Desk.
+</td>
+<td width="50%" valign="top">
 
-## Technology
+### Knowledge Base
 
-`Linux` · `Docker` · `Windows Server` · `Active Directory` · `Keycloak` · `WireGuard` · `PowerDNS` · `Mailcow` · `Nginx` · `GitHub Actions`
+Documentation and knowledge management developed alongside Service Desk.
+
+**Core areas**
+
+- structured internal documentation
+- service and troubleshooting articles
+- reusable operational knowledge
+- Service Desk integration
+- searchable technical content
+
+**Repository:** [iTELade/service-desk-knowledge-base](https://github.com/iTELade/service-desk-knowledge-base)
+
+</td>
+</tr>
+</table>
+
+## Infrastructure
+
+iTELade runs a self-hosted environment focused on keeping infrastructure understandable, maintainable and under direct control.
+
+| Area | Stack |
+|---|---|
+| Systems | Linux · Windows Server · Active Directory |
+| Containers | Docker · Docker Compose |
+| Identity | Keycloak · LDAP · SSO |
+| Networking | WireGuard · MikroTik · Nginx |
+| DNS | PowerDNS |
+| Mail | Mailcow |
+| Development | GitHub · GitHub Actions |
+| Operations | monitoring · incident tracking · service status |
 
 ## Operations
 
-Public service availability is published at [status.itelade.pl](https://status.itelade.pl).
+Public-facing service availability is published at **[status.itelade.pl](https://status.itelade.pl)**.
 
-For general enquiries: [kontakt@itelade.pl](mailto:kontakt@itelade.pl)
+Administrative services are kept separate from public-facing applications, with access controls built around private networking and centralized identity.
+
+## Open source
+
+Public repositories are used for projects that can be developed openly. Internal infrastructure configuration, credentials and private operational data remain outside public repositories.
+
+---
+
+<div align="center">
+
+**iTELade**  
+[itelade.pl](https://itelade.pl) · [kontakt@itelade.pl](mailto:kontakt@itelade.pl)
+
+</div>
